@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;script&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gobook-src" />
+      <root url="file://$PROJECT_DIR$/../../../MyServer" />
+      <root url="file://$PROJECT_DIR$/../../../gosnippet" />
+      <root url="file://$PROJECT_DIR$/../../../the-way-to-go_ZH_CN" />
+      <root url="file://$PROJECT_DIR$/../../../echo" />
+      <root url="file://$PROJECT_DIR$/../../../study" />
+      <root url="file://$PROJECT_DIR$/../../../echo-MyServer" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gobook-src" />
+      <root url="file://$PROJECT_DIR$/../../../MyServer" />
+      <root url="file://$PROJECT_DIR$/../../../gosnippet" />
+      <root url="file://$PROJECT_DIR$/../../../the-way-to-go_ZH_CN" />
+      <root url="file://$PROJECT_DIR$/../../../echo" />
+      <root url="file://$PROJECT_DIR$/../../../study" />
+      <root url="file://$PROJECT_DIR$/../../../echo-MyServer" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
