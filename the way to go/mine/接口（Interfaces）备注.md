@@ -62,6 +62,27 @@ func classifier(items ...interface{}) {
 	}
 }
 ```
+另外一种用法
+```go
+func (p *Vector) TypeSwitch(i int) {
+	testFunc := func(any interface{}) {
+		switch v := any.(type) {
+		case bool:
+			fmt.Printf("any %v is a bool type", v)
+		case int:
+			fmt.Printf("any %v is an int type", v)
+		case float32:
+			fmt.Printf("any %v is a float32 type", v)
+		case string:
+			fmt.Printf("any %v is a string type", v)
+		default:
+			fmt.Println("unknown type!")
+		}
+	}
+
+	testFunc(p.a[i])
+}
+```
 
 ---
 ###11.5 测试一个值是否实现了某个接口###
