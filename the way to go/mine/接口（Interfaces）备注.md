@@ -12,15 +12,25 @@ type Shaper interface {
 	Area() float32
 }
 
-var areaIntf Shaper	// areaIntf 是接口变量
-
-sq1 := new(Square)
-sq1.side = 5
-areaIntf = sq1		 // areaIntf 被赋值
-
-if t, ok := areaIntf.(*Square); ok {
-		fmt.Printf("The type of areaIntf is: %T\n", t)
+func (s Square) Area() float32 {
+	return s.side * s.side
 }
+
+-------------------------------------------------------------------------------------------------------------------------
+func main(){
+	var areaIntf Shaper	// areaIntf 是接口变量
+
+	sq1 := new(Square)
+	sq1.side = 5
+	areaIntf = sq1		 // areaIntf 被赋值
+
+	if t, ok := areaIntf.(*Square); ok {
+		fmt.Printf("The type of areaIntf is: %T\n", t)
+	}
+}
+```
+```go
+v := areaIntf.(*Square)	// v 是 areaIntf 转换到类型 Square 的值
 ```
 
 ---
