@@ -59,6 +59,13 @@ func (f File)RunCommand() {
 	}
 	rErrPipe, _ := ioutil.ReadAll(errPipe)
 	rOutPipe, _ := ioutil.ReadAll(outPipe)
+	// 另一种读的方法
+	// byteSlice := make([]byte, 200)
+	// x, err := outPipe.Read(byteSlice)
+	// if err != nil {
+	// 	fmt.Println(err)
+	// }
+	// fmt.Printf("%s%d", byteSlice, x)
 	if err := cmd.Wait(); err != nil {
 		log.Fatal("Wait err:", err)
 	}

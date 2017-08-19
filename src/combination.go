@@ -24,19 +24,69 @@
 
 /*
  * Revision History:
- *     Initial: 2017/06/13        Li Zebang
+ *     Initial:  2017/07/11        Li Zebang
+ *     Version1: 2017/07/15        Li Zebang
  */
 
 package main
 
 import (
-	"./run"
+	"fmt"
+	"strconv"
+	"strings"
 )
 
 func main() {
-	// 如果脚本文件和 main 文件在同一目录下,可以 FileRoot 设置 ""
-	file := run.File{"", "hello.bat"}
-	file.RunCommand()
-	file = run.File{"", "hello.sh"}
-	file.RunCommand()
+	Combination(scanNum())
+}
+
+func scanNum() (num int) {
+	fmt.Println("Please enter a number N: ")
+	fmt.Scanln(&num)
+	return num
+}
+
+func Combination(num int) {
+	numSlice := make([]int, 0)
+	for numCount := num; numCount > 0; numCount-- {
+		numSlice = append(numSlice, numCount)
+	}
+
+	for count := 1; count < 1 << uint(num); count++ {
+		out := make([]int, 0)
+		binary := decTobin(count, num)
+
+		for k, v := range binary{
+			if v == 0 {
+				continue
+			}
+			out = append(out, v * numSlice[k])
+		}
+
+		output(out)
+	}
+}
+
+func decTobin(dec, num int) (bin []int) {
+	binString := strconv.FormatInt(int64(dec), 2)
+	binSlice := make([]string, 0)
+	binSlice = strings.Split(binString, "")
+	bin = make([]int, num - len(binSlice))
+
+	for _, v := range binSlice{
+		vToInt, _ := strconv.Atoi(v)
+		bin = append(bin, vToInt)
+	}
+
+	return bin
+}
+
+func output(out []int) {
+	str := strconv.Itoa(out[len(out) - 1])
+
+	for i := 1; i < len(out); i++ {
+		str = str + "," + strconv.Itoa(out[len(out) - 1 - i])
+	}
+
+	fmt.Println(str)
 }

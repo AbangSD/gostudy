@@ -1,0 +1,75 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;src&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../the-way-to-go_ZH_CN" />
+      <root url="file://$PROJECT_DIR$/../../docker_practice" />
+      <root url="file://$PROJECT_DIR$/../../echo" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../goc2p" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../mgo" />
+      <root url="file://$PROJECT_DIR$/../../crack" />
+      <root url="file://$PROJECT_DIR$/../../zhao" />
+      <root url="file://$PROJECT_DIR$/../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../echox" />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../OPMS" />
+      <root url="file://$PROJECT_DIR$/../../echo-web" />
+      <root url="file://$PROJECT_DIR$/../../Winston" />
+      <root url="file://$PROJECT_DIR$/../../slimage" />
+      <root url="file://$PROJECT_DIR$/../../ShopApi" />
+      <root url="file://$PROJECT_DIR$/../../cron" />
+      <root url="file://$PROJECT_DIR$/../../jobrunner" />
+      <root url="file://$PROJECT_DIR$/../../go.uber.org" />
+      <root url="file://$PROJECT_DIR$/../../wemall" />
+      <root url="file://$PROJECT_DIR$/../../MyServer" />
+      <root url="file://$PROJECT_DIR$/../../example.v2" />
+      <root url="file://$PROJECT_DIR$/../../Library-Management" />
+      <root url="file://$PROJECT_DIR$/../../gopsutil" />
+      <root url="file://$PROJECT_DIR$/../../kcptun" />
+      <root url="file://$PROJECT_DIR$/../../ctop" />
+      <root url="file://$PROJECT_DIR$/../../EchoStudy" />
+      <root url="file://$PROJECT_DIR$/../../gosnippet" />
+      <root url="file://$PROJECT_DIR$/../../study" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../the-way-to-go_ZH_CN" />
+      <root url="file://$PROJECT_DIR$/../../docker_practice" />
+      <root url="file://$PROJECT_DIR$/../../echo" />
+      <root url="file://$PROJECT_DIR$/../../github.com" />
+      <root url="file://$PROJECT_DIR$/../../goc2p" />
+      <root url="file://$PROJECT_DIR$/.." />
+      <root url="file://$PROJECT_DIR$/../../mgo" />
+      <root url="file://$PROJECT_DIR$/../../crack" />
+      <root url="file://$PROJECT_DIR$/../../zhao" />
+      <root url="file://$PROJECT_DIR$/../../labix.org" />
+      <root url="file://$PROJECT_DIR$/../../echox" />
+      <root url="file://$PROJECT_DIR$/../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../OPMS" />
+      <root url="file://$PROJECT_DIR$/../../echo-web" />
+      <root url="file://$PROJECT_DIR$/../../Winston" />
+      <root url="file://$PROJECT_DIR$/../../slimage" />
+      <root url="file://$PROJECT_DIR$/../../ShopApi" />
+      <root url="file://$PROJECT_DIR$/../../cron" />
+      <root url="file://$PROJECT_DIR$/../../jobrunner" />
+      <root url="file://$PROJECT_DIR$/../../go.uber.org" />
+      <root url="file://$PROJECT_DIR$/../../wemall" />
+      <root url="file://$PROJECT_DIR$/../../MyServer" />
+      <root url="file://$PROJECT_DIR$/../../example.v2" />
+      <root url="file://$PROJECT_DIR$/../../Library-Management" />
+      <root url="file://$PROJECT_DIR$/../../gopsutil" />
+      <root url="file://$PROJECT_DIR$/../../kcptun" />
+      <root url="file://$PROJECT_DIR$/../../ctop" />
+      <root url="file://$PROJECT_DIR$/../../EchoStudy" />
+      <root url="file://$PROJECT_DIR$/../../gosnippet" />
+      <root url="file://$PROJECT_DIR$/../../study" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
