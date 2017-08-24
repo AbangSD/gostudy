@@ -23,7 +23,7 @@ func main() {
 	// }
 
 	// should close the channel
-	// for v := range ch{
+	// for v := range ch {
 	// 	fmt.Printf(" %v, %v", v)
 	// }
 
