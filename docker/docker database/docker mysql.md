@@ -3,7 +3,7 @@
 启一个 MySQL
 
 ```docker
-docker run -d -p 127.0.0.1:3306:3306 –-name shopapi -v C:\Users\AbangSD\docker\shop:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 mysql:latest
+docker run -d -p 127.0.0.1:3306:3306 --name shopapi -v C:\Users\AbangSD\docker\shop:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=123456 mysql:latest
 
 docker run -d -p 3307:27017 --name shopmgo mongo
 
